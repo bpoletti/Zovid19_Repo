@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
