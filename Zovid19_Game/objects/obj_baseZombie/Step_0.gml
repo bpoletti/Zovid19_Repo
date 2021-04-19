@@ -6,3 +6,5 @@ if (instance_exists(obj_player)) {
 	image_angle = direction;
 	}
 }
+x = clamp(x, sprite_width/2, room_width-sprite_width/2)
+y = clamp(y, sprite_height/2, room_height-sprite_height/2)
