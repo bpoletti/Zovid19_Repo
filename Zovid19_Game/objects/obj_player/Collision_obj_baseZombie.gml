@@ -5,3 +5,7 @@ if (!invulnerable) {
 	alarm[0] = 5;
 	alarm[1] = 5;
 }
+
+if (hp <= 0) {
+	instance_destroy()		
+}
