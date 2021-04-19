@@ -3,9 +3,12 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_tempBackground","path":"sprites/spr_tempBackground/spr_tempBackground.yy",},"order":2,},
+    {"id":{"name":"obj_fastZombie","path":"objects/obj_fastZombie/obj_fastZombie.yy",},"order":4,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":1,},
     {"id":{"name":"tileset_background","path":"tilesets/tileset_background/tileset_background.yy",},"order":0,},
+    {"id":{"name":"obj_bruiserZombie","path":"objects/obj_bruiserZombie/obj_bruiserZombie.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
+    {"id":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -48,7 +51,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Zovid19_Game",
