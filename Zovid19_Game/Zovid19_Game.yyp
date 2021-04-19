@@ -6,6 +6,7 @@
     {"id":{"name":"obj_fastZombie","path":"objects/obj_fastZombie/obj_fastZombie.yy",},"order":4,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":1,},
     {"id":{"name":"tileset_background","path":"tilesets/tileset_background/tileset_background.yy",},"order":0,},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
     {"id":{"name":"obj_bruiserZombie","path":"objects/obj_bruiserZombie/obj_bruiserZombie.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
     {"id":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"order":2,},
