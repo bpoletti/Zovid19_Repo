@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":7,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_tempBackground","path":"sprites/spr_tempBackground/spr_tempBackground.yy",},"order":2,},
     {"id":{"name":"obj_fastZombie","path":"objects/obj_fastZombie/obj_fastZombie.yy",},"order":4,},
