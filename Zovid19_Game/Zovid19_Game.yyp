@@ -2,9 +2,11 @@
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":7,},
+    {"id":{"name":"spr_ending","path":"sprites/spr_ending/spr_ending.yy",},"order":7,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":3,},
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},"order":4,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"EndState","path":"rooms/EndState/EndState.yy",},"order":1,},
     {"id":{"name":"snd_zombieDeath","path":"sounds/snd_zombieDeath/snd_zombieDeath.yy",},"order":0,},
     {"id":{"name":"spr_tempBackground","path":"sprites/spr_tempBackground/spr_tempBackground.yy",},"order":2,},
     {"id":{"name":"spr_player_rifle","path":"sprites/spr_player_rifle/spr_player_rifle.yy",},"order":6,},
@@ -12,6 +14,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":1,},
     {"id":{"name":"tileset_background","path":"tilesets/tileset_background/tileset_background.yy",},"order":0,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
+    {"id":{"name":"snd_playerGrunt","path":"sounds/snd_playerGrunt/snd_playerGrunt.yy",},"order":2,},
     {"id":{"name":"obj_bruiserZombie","path":"objects/obj_bruiserZombie/obj_bruiserZombie.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
     {"id":{"name":"snd_zombieGrunt","path":"sounds/snd_zombieGrunt/snd_zombieGrunt.yy",},"order":1,},
@@ -34,6 +37,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"EndState","path":"rooms/EndState/EndState.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
