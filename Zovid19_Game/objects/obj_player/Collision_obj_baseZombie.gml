@@ -10,3 +10,6 @@ if (!invulnerable) {
 if (hp <= 0) {
 	instance_destroy()		
 }
+// Changes sprite to attacking on collision *only have base one though*
+//other.sprite_index = spr_zombie1_attacking
+// *need a check for when stop collision
