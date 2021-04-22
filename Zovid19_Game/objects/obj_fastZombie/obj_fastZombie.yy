@@ -1,6 +1,9 @@
 {
-  "spriteId": null,
-  "solid": false,
+  "spriteId": {
+    "name": "spr_zombie2",
+    "path": "sprites/spr_zombie2/spr_zombie2.yy",
+  },
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -25,8 +28,8 @@
   "overriddenProperties": [
     {"propertyId":{"name":"hp","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"z_dmg","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"hspd","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"vspd","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hspd","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"vspd","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
