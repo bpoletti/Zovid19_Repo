@@ -1,0 +1,9 @@
+Dragoncard Studio Assets
+Sound Effects/Music: playerGrunt, zombieGrunt, zombieDeath
+
+Riley Gombart
+Top Down Survivor (https://opengameart.org/content/animated-top-down-survivor-player)
+Top Down Zombie (https://opengameart.org/content/animated-top-down-zombie)
+
+KonitaTutorials
+Gun Sound Effects (https://opengameart.org/content/gun-sound-effects)
