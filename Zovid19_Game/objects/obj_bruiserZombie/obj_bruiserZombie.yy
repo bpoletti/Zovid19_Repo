@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"hp","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"z_dmg","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"z_dmg","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"hspd","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"vspd","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"objectId":{"name":"obj_baseZombie","path":"objects/obj_baseZombie/obj_baseZombie.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
