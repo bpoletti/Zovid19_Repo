@@ -1,9 +1,12 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_medkit",
+    "path": "sprites/spr_medkit/spr_medkit.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -17,11 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -29,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_healthbar",
+  "name": "obj_medkit",
   "tags": [],
   "resourceType": "GMObject",
 }
