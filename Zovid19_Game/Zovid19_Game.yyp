@@ -16,6 +16,7 @@
     {"id":{"name":"spr_zombie2","path":"sprites/spr_zombie2/spr_zombie2.yy",},"order":9,},
     {"id":{"name":"spr_zombie1_attacking","path":"sprites/spr_zombie1_attacking/spr_zombie1_attacking.yy",},"order":10,},
     {"id":{"name":"obj_rifle","path":"objects/obj_rifle/obj_rifle.yy",},"order":9,},
+    {"id":{"name":"spr_backgroundBlack","path":"sprites/spr_backgroundBlack/spr_backgroundBlack.yy",},"order":13,},
     {"id":{"name":"obj_medkit","path":"objects/obj_medkit/obj_medkit.yy",},"order":8,},
     {"id":{"name":"obj_gunSpawner","path":"objects/obj_gunSpawner/obj_gunSpawner.yy",},"order":12,},
     {"id":{"name":"spr_player_rifle","path":"sprites/spr_player_rifle/spr_player_rifle.yy",},"order":6,},
@@ -75,7 +76,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "Zovid19_Game",
