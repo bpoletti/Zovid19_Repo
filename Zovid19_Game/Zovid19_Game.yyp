@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":7,},
+    {"id":{"name":"spr_citytiles","path":"sprites/spr_citytiles/spr_citytiles.yy",},"order":14,},
     {"id":{"name":"spr_ending","path":"sprites/spr_ending/spr_ending.yy",},"order":7,},
     {"id":{"name":"spr_zombie2_attacking","path":"sprites/spr_zombie2_attacking/spr_zombie2_attacking.yy",},"order":11,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":3,},
@@ -18,6 +19,7 @@
     {"id":{"name":"obj_rifle","path":"objects/obj_rifle/obj_rifle.yy",},"order":9,},
     {"id":{"name":"spr_backgroundBlack","path":"sprites/spr_backgroundBlack/spr_backgroundBlack.yy",},"order":13,},
     {"id":{"name":"obj_medkit","path":"objects/obj_medkit/obj_medkit.yy",},"order":8,},
+    {"id":{"name":"tileset_city","path":"tilesets/tileset_city/tileset_city.yy",},"order":1,},
     {"id":{"name":"obj_gunSpawner","path":"objects/obj_gunSpawner/obj_gunSpawner.yy",},"order":12,},
     {"id":{"name":"spr_player_rifle","path":"sprites/spr_player_rifle/spr_player_rifle.yy",},"order":6,},
     {"id":{"name":"obj_fastZombie","path":"objects/obj_fastZombie/obj_fastZombie.yy",},"order":4,},
