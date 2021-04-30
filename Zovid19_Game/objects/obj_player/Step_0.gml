@@ -5,16 +5,16 @@ y = clamp(y, sprite_height/2, room_height-sprite_height/2)
 var shoot = mouse_check_button(mb_left)
 if(shoot) {
 	if (pistol) {
-		if(pistol_mag_num > 0) {
+		if(pistol_total_ammo > 0) {
 			if(pistol_ammo_remain > 0) {
 				if(bullet_cooldown <= 0) {
 					instance_create_layer(x, y, "Layer_Bullet",obj_bullet)
 					bullet_cooldown = bullet_delay/2
 					pistol_ammo_remain -= 1
+					pistol_total_ammo -= 1
 					if(pistol_ammo_remain == 0) {
-						pistol_mag_num -= 1
 						bullet_delay = 160
-						alarm[3] = 120
+						alarm[3] = 160
 						
 					}
 				}
