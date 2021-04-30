@@ -25,12 +25,13 @@ if(shoot) {
 	}
 	else if (shotgun) {
 		if(bullet_cooldown <= 0) {
-			instance_create_layer(x, y, "Layer_Bullet",obj_bullet)
-			instance_create_layer(x+20, y+20, "Layer_Bullet",obj_bullet)
-			instance_create_layer(x-20, y-20, "Layer_Bullet",obj_bullet)
+			instance_create_layer(x, y, "Layer_Bullet",obj_shotg_bullet)
+			instance_create_layer(x+20, y+20, "Layer_Bullet",obj_shotg_bullet)
+			instance_create_layer(x-20, y-20, "Layer_Bullet",obj_shotg_bullet)
 			bullet_cooldown = bullet_delay*2
 		}
 	}
 }
+
 bullet_cooldown -= 0.5
 barrelHeat -= 1

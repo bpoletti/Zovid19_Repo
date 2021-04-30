@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_shotg_bullet","path":"sprites/spr_shotg_bullet/spr_shotg_bullet.yy",},"order":15,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":7,},
     {"id":{"name":"spr_citytiles","path":"sprites/spr_citytiles/spr_citytiles.yy",},"order":14,},
@@ -9,6 +10,7 @@
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},"order":4,},
     {"id":{"name":"snd_rifleShot","path":"sounds/snd_rifleShot/snd_rifleShot.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_shotg_bullet","path":"objects/obj_shotg_bullet/obj_shotg_bullet.yy",},"order":14,},
     {"id":{"name":"spr_zombie1","path":"sprites/spr_zombie1/spr_zombie1.yy",},"order":8,},
     {"id":{"name":"EndState","path":"rooms/EndState/EndState.yy",},"order":1,},
     {"id":{"name":"spr_medkit","path":"sprites/spr_medkit/spr_medkit.yy",},"order":12,},
@@ -78,7 +80,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Zovid19_Game",
