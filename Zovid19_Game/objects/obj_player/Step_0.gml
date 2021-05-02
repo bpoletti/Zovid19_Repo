@@ -2,7 +2,7 @@ direction = point_direction(x,y,mouse_x,mouse_y)	//setting direction to be where
 image_angle = direction		//setting angle of image to match direction of mouse
 x = clamp(x, sprite_width/2, room_width-sprite_width/2)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
-var shoot = mouse_check_button(mb_left)
+var shoot = mouse_check_button_pressed(mb_left)
 switch (shoot) {
 	case pistol :
 		if(pistol_total_ammo > 0) {
