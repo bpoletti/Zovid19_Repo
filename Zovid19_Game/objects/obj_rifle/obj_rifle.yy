@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_rifle",
+    "path": "sprites/spr_rifle/spr_rifle.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

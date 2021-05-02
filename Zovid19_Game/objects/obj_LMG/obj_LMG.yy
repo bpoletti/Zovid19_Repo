@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_LMG",
+    "path": "sprites/spr_LMG/spr_LMG.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
