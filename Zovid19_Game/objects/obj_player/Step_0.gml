@@ -22,50 +22,44 @@ if (shoot) {
 			}
 			break;
 		case Guns.rifle :
-			if(rifle_total_ammo >= 0) {
-				if(rifle_ammo_remain > 0) {
+			if(rifle_total_ammo > 0) {
 					if(bullet_cooldown <= 0) {
-						instance_create_layer(x, y, "Layer_Bullet",obj_bullet)
-						bullet_cooldown = bullet_delay/2
-						rifle_ammo_remain -= 1
-						if rifle_total_ammo > 0 rifle_total_ammo -= 1
-						if(rifle_ammo_remain == 0) {
-							bullet_delay = 160
-							alarm[3] = 160
-						}
-					}
-				}
+						if(rifle_ammo_remain > 0) {
+							rifle_ammo_remain -= 1
+							rifle_total_ammo -= 1
+							instance_create_layer(x, y, "Layer_Bullet",obj_bullet)
+							bullet_cooldown = bullet_delay
+							} else if(rifle_ammo_remain <= 0) {
+								alarm[3] = 80
+							}
+					}			
 			}
 			break;
 		case Guns.LMG :
-			if(LMG_total_ammo >= 0) {
-				if(LMG_ammo_remain > 0) {
+			if(LMG_total_ammo > 0) {
 					if(bullet_cooldown <= 0) {
-						instance_create_layer(x, y, "Layer_Bullet",obj_bullet)
-						bullet_cooldown = bullet_delay/2
-						LMG_ammo_remain -= 1
-						if LMG_total_ammo > 0 LMG_total_ammo -= 1
-						if(LMG_ammo_remain == 0) {
-							bullet_delay = 160
-							alarm[3] = 160
-						}
-					}
+						if(LMG_ammo_remain > 0) {
+							LMG_ammo_remain -= 1
+							LMG_total_ammo -= 1
+							instance_create_layer(x, y, "Layer_Bullet",obj_bullet)
+							bullet_cooldown = bullet_delay/10
+							} else if(LMG_ammo_remain == 0) {
+								alarm[3] = 140
+							}
 				}
 			}
 			break;
 		case Guns.shotgun : 
 			if(shotgun_total_ammo >= 0) {
-				if(shotgun_ammo_remain > 0) {
 					if(bullet_cooldown <= 0) {
-						instance_create_layer(x, y, "Layer_Bullet",obj_shotg_bullet)
-						bullet_cooldown = bullet_delay/2
-						shotgun_ammo_remain -= 1
-						if shotgun_total_ammo > 0 shotgun_total_ammo -= 1
-						if(shotgun_ammo_remain == 0) {
-							bullet_delay = 160
-							alarm[3] = 160
-						}
-					}
+							if(shotgun_ammo_remain > 0) {
+								shotgun_ammo_remain -= 1
+								shotgun_total_ammo -= 1
+								instance_create_layer(x, y, "Layer_Bullet",obj_shotg_bullet)
+								bullet_cooldown = bullet_delay/4
+								} else if(shotgun_ammo_remain == 0) {
+									alarm[3] = 160
+								}
 				}
 			}
 			break;

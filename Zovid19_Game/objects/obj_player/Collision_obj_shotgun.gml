@@ -1,7 +1,4 @@
-rifle = false;
-pistol = false;
-LMG = false;
-shotgun = true;
+weapon = Guns.shotgun
 if (shotgun_ammo_remain = 0)
 	shotgun_ammo_remain = shotgun_ammo_mag;
 if (shotgun_total_ammo < 18)

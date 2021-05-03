@@ -6,19 +6,19 @@ if instance_exists(obj_player) {
 		draw_text(x - 15, y+340, "Total Ammo Left: " + string(obj_player.pistol_total_ammo));
 	}
 	else if (obj_player.weapon == Guns.rifle) {
-		draw_sprite(spr_rifle,  0, 100, 100)
-		draw_text(x, y+10, "Ammo in Mag: " + string(obj_player.rifle_ammo_remain));
-		draw_text(x, y+20, "Total Ammo Left: " + string(obj_player.rifle_total_ammo));
+		draw_sprite(spr_rifle,  0, 20, 300)
+		draw_text(x - 15, y+315, "Ammo in Mag: " + string(obj_player.rifle_ammo_remain));
+		draw_text(x - 15, y+340, "Total Ammo Left: " + string(obj_player.rifle_total_ammo));
 	}
 	else if (obj_player.weapon == Guns.LMG) {
-		draw_sprite(spr_LMG,  0, 100, 100)
-		draw_text(x, y+10, "Ammo in Mag: " + string(obj_player.LMG_ammo_remain));
-		draw_text(x, y+20, "Total Ammo Left: " + string(obj_player.LMG_total_ammo));
+		draw_sprite(spr_LMG,  0, 20, 300)
+		draw_text(x - 15, y+315, "Ammo in Mag: " + string(obj_player.LMG_ammo_remain));
+		draw_text(x - 15, y+340, "Total Ammo Left: " + string(obj_player.LMG_total_ammo));
 	}
 	else if (obj_player.weapon == Guns.shotgun) {
-		draw_sprite(spr_shotgun,  0, 100, 100)
-		draw_text(x, y+10, "Ammo in Mag: " + string(obj_player.shotgun_ammo_remain));
-		draw_text(x, y+20, "Total Ammo Left: " + string(obj_player.shotgun_total_ammo));
+		draw_sprite(spr_shotgun,  0, 20, 300)
+		draw_text(x - 15, y+315, "Ammo in Mag: " + string(obj_player.shotgun_ammo_remain));
+		draw_text(x - 15, y+340, "Total Ammo Left: " + string(obj_player.shotgun_total_ammo));
 	}
 }
 alarm[0] = 1;
