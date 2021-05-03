@@ -7,4 +7,4 @@ enum Guns {
 	rifle
 }
 
-weapon = Guns.LMG
+weapon = Guns.pistol

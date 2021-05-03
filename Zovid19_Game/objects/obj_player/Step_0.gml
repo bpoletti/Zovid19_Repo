@@ -56,9 +56,11 @@ if (shoot) {
 								shotgun_ammo_remain -= 1
 								shotgun_total_ammo -= 1
 								instance_create_layer(x, y, "Layer_Bullet",obj_shotg_bullet)
-								bullet_cooldown = bullet_delay/4
+								instance_create_layer(x+30, y, "Layer_Bullet",obj_shotg_bullet)
+								instance_create_layer(x-30, y, "Layer_Bullet",obj_shotg_bullet)
+								bullet_cooldown = bullet_delay*.667
 								} else if(shotgun_ammo_remain == 0) {
-									alarm[3] = 160
+									alarm[3] = 130
 								}
 				}
 			}
