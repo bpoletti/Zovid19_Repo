@@ -1,6 +1,5 @@
-//isHealing = true
-//heal_amt = heal_amt + 1
-hp += 15
+
+hp += 17
 if(hp > 100) {
 		hp = 100	
 	}
