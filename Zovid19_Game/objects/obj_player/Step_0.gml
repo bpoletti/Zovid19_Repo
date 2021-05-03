@@ -71,4 +71,5 @@ if (shoot) {
 			break;
 	}
 }
+
 bullet_cooldown -= 0.5
