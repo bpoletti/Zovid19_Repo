@@ -35,6 +35,7 @@
     {"id":{"name":"tileset_background","path":"tilesets/tileset_background/tileset_background.yy",},"order":0,},
     {"id":{"name":"obj_zombieSpawner","path":"objects/obj_zombieSpawner/obj_zombieSpawner.yy",},"order":5,},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":20,},
+    {"id":{"name":"Start","path":"rooms/Start/Start.yy",},"order":2,},
     {"id":{"name":"obj_pistol","path":"objects/obj_pistol/obj_pistol.yy",},"order":11,},
     {"id":{"name":"snd_playerGrunt","path":"sounds/snd_playerGrunt/snd_playerGrunt.yy",},"order":2,},
     {"id":{"name":"obj_bruiserZombie","path":"objects/obj_bruiserZombie/obj_bruiserZombie.yy",},"order":3,},
@@ -63,6 +64,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"EndState","path":"rooms/EndState/EndState.yy",},},
+    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
