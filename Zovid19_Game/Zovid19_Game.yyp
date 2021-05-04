@@ -62,9 +62,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"EndState","path":"rooms/EndState/EndState.yy",},},
-    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
