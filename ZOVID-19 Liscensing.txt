@@ -1,15 +1,26 @@
 Dragoncard Studio Assets
 Sound Effects/Music: playerGrunt, zombieGrunt, zombieDeath
+Sprites: Medkit
 
 Riley Gombart
 Top Down Survivor (https://opengameart.org/content/animated-top-down-survivor-player)
 Top Down Zombie (https://opengameart.org/content/animated-top-down-zombie)
+Edited versions of his zombie were used in this game as well
 
 KonitaTutorials
 Gun Sound Effects (https://opengameart.org/content/gun-sound-effects)
 
-Bespoke Mat Manufacturing
-Classroom Playmat Early Years Town (https://www.sportandplaybase.co.uk/products-page/giant-classroom-carpets/classroom-playmat-early-years-town/)
-
 Umar Ahmed
 Bullet Sprite (https://www.artstation.com/artwork/dOZ3nJ)
+
+Megupets
+I became a zombie (www.megupets.com) (https://opengameart.org/content/i-became-a-zombie)
+
+Kenney
+RPG Urban Pak (https://opengameart.org/content/rpg-urban-pack) (www.kenney.nl)
+
+Jordan Irwin (AntumDeluge)
+Vial (https://opengameart.org/content/vial)
+
+CongusBongus
+Tiny Gun Icons 16 x 16 (https://opengameart.org/content/tiny-gun-icons-16x16)
