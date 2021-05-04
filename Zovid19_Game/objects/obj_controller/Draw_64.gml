@@ -3,8 +3,8 @@ if instance_exists(obj_player) {
 	draw_text(x,y+30, "Find 4 vials to escape the city")
 	draw_text(x,y+50, "Current Vials: " + string(obj_player.vialCount))
 	if (obj_player.weapon == Guns.pistol) {
-		draw_sprite(spr_pistol2,  0, 35, 655)
-		draw_text(x+40, y+620, "Pistol")
+		draw_sprite(spr_pistol2,  0, 40, 660)
+		draw_text(x+35, y+620, "Pistol")
 		draw_text(x, y+660, "Ammo in Mag: " + string(obj_player.pistol_ammo_remain));
 		draw_text(x, y+680, "Total Ammo Left: " + string(obj_player.pistol_total_ammo));
 		if(obj_player.overGun == true) {
@@ -16,7 +16,7 @@ if instance_exists(obj_player) {
 	}
 	else if (obj_player.weapon == Guns.rifle) {
 		draw_sprite(spr_rifle2,  0, 40, 660)
-		draw_text(x+35, y+620, "Rifle")
+		draw_text(x+40, y+620, "Rifle")
 		draw_text(x, y+660, "Ammo in Mag: " + string(obj_player.rifle_ammo_remain));
 		draw_text(x, y+680, "Total Ammo Left: " + string(obj_player.rifle_total_ammo));
 		if(obj_player.overGun == true) {
@@ -28,7 +28,7 @@ if instance_exists(obj_player) {
 	}
 	else if (obj_player.weapon == Guns.LMG) {
 		draw_sprite(spr_LMG2,  0, 40, 660)
-		draw_text(x+35, y+620, "LMG")
+		draw_text(x+40, y+620, "LMG")
 		draw_text(x, y+660, "Ammo in Mag: " + string(obj_player.LMG_ammo_remain));
 		draw_text(x, y+680, "Total Ammo Left: " + string(obj_player.LMG_total_ammo));
 		if(obj_player.overGun == true) {
