@@ -23,6 +23,16 @@ Left Mouse Button - Shoot
 Esc - Exit the Game
 
 ## Cheats
+Alt + 1 - Set Gun to Pistol
+
+Alt + 2 - Set Gun to Rifle
+
+Alt + 3 - Set Gun to LMG
+
+Alt + 4 - Set Gun to Shotgun
+
+Alt + M - Set all ammo to 1000
+
 Alt + G - Restart the Game
 
 Alt + Y - Set hp equal to 100
