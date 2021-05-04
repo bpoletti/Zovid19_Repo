@@ -1,5 +1,7 @@
 if instance_exists(obj_player) {
 	draw_healthbar(x,y,x+100,y+10,obj_player.hp,c_black,c_red,c_lime,0,true,true)
+	draw_text(x,y+10, "Find 4 vials to escape the city")
+	draw_text(x,y+20, "Current Vials: " + string(obj_player.vialCount))
 	if (obj_player.weapon == Guns.pistol) {
 		draw_sprite(spr_pistol,  0, 30, 320)
 		draw_text(x - 15, y+315, "Ammo in Mag: " + string(obj_player.pistol_ammo_remain));
@@ -44,5 +46,5 @@ if instance_exists(obj_player) {
 			draw_text(x - 15, y+250, " ");
 		}
 	}
+	alarm[0] = 1;
 }
-alarm[0] = 1;

@@ -1,8 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"obj_vial","path":"objects/obj_vial/obj_vial.yy",},"order":16,},
     {"id":{"name":"spr_shotg_bullet","path":"sprites/spr_shotg_bullet/spr_shotg_bullet.yy",},"order":15,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":7,},
+    {"id":{"name":"spr_vial","path":"sprites/spr_vial/spr_vial.yy",},"order":21,},
     {"id":{"name":"spr_shotgun","path":"sprites/spr_shotgun/spr_shotgun.yy",},"order":19,},
     {"id":{"name":"spr_citytiles","path":"sprites/spr_citytiles/spr_citytiles.yy",},"order":14,},
     {"id":{"name":"spr_ending","path":"sprites/spr_ending/spr_ending.yy",},"order":7,},

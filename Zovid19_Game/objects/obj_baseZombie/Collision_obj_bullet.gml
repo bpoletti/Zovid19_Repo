@@ -10,4 +10,5 @@ if (!invulnerable) {
 instance_destroy(other);
 if (hp <= 0) {
 	instance_destroy();
+	audio_play_sound(snd_zombieDeath, 1, 0);
 }

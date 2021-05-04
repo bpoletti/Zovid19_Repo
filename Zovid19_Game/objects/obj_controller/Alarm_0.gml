@@ -1,3 +1,3 @@
-if ((!instance_exists(obj_baseZombie) && !instance_exists(obj_bruiserZombie) && !instance_exists(obj_fastZombie)) && room == Room1) {
+if (instance_exists(obj_player) && obj_player.vialCount = 4) {
 	room_goto_next();
 }
