@@ -1,1 +1,2 @@
-room_goto_next();
+if (room == Start)
+	room_goto_next();
