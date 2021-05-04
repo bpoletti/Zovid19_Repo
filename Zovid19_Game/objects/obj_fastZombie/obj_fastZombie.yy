@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_zombie2Mask",
+    "path": "sprites/spr_zombie2Mask/spr_zombie2Mask.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_baseZombie",
