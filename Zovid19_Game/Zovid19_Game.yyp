@@ -30,6 +30,7 @@
     {"id":{"name":"obj_medkit","path":"objects/obj_medkit/obj_medkit.yy",},"order":8,},
     {"id":{"name":"tileset_city","path":"tilesets/tileset_city/tileset_city.yy",},"order":1,},
     {"id":{"name":"spr_LMG","path":"sprites/spr_LMG/spr_LMG.yy",},"order":18,},
+    {"id":{"name":"music_battle","path":"sounds/music_battle/music_battle.yy",},"order":4,},
     {"id":{"name":"obj_gunSpawner","path":"objects/obj_gunSpawner/obj_gunSpawner.yy",},"order":12,},
     {"id":{"name":"spr_player_rifle","path":"sprites/spr_player_rifle/spr_player_rifle.yy",},"order":6,},
     {"id":{"name":"obj_fastZombie","path":"objects/obj_fastZombie/obj_fastZombie.yy",},"order":4,},
